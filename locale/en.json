@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Conv 3D Lab",
+    "description": "Stacks an input matrix and its convolution and pooling layers into an interactive 3D scene, and animates the kernel scanning the input so every cell of the next feature map is built in front of you."
+  }
+}

@@ -1,0 +1,3 @@
+- insert:
+    - id: conv-3d-lab
+      name: '@local/conv-3d-lab'

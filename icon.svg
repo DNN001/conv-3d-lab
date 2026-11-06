@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Conv 3D Lab">
+  <defs>
+    <linearGradient id="c3g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f7fb8"/>
+      <stop offset="1" stop-color="#1e4f7a"/>
+    </linearGradient>
+    <linearGradient id="c3g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8b54a"/>
+      <stop offset="1" stop-color="#c1762c"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="128" height="128" rx="26" fill="#0b1220"/>
+  <!-- back feature-map plane -->
+  <g opacity="0.55">
+    <path d="M40 30 L86 44 L60 58 L14 44 Z" fill="url(#c3g1)"/>
+    <path d="M40 30 L86 44 L86 66 L60 80 L14 66 L14 44 Z" fill="none" stroke="#6fb3e0" stroke-width="1.6" opacity="0.5"/>
+    <path d="M14 44 L60 58 L60 80 L14 66 Z" fill="#123049" opacity="0.85"/>
+    <path d="M60 58 L86 44 L86 66 L60 80 Z" fill="#0d2338" opacity="0.85"/>
+  </g>
+  <!-- middle plane with grid -->
+  <path d="M52 46 L98 60 L72 74 L26 60 Z" fill="url(#c3g1)"/>
+  <g stroke="#9fd0f0" stroke-width="0.9" opacity="0.55">
+    <path d="M26 60 L72 74" fill="none"/>
+    <path d="M39 55 L85 69" fill="none"/>
+    <path d="M39 55 L65 69" fill="none"/>
+    <path d="M52 50 L78 64" fill="none"/>
+    <path d="M65 46 L91 60" fill="none"/>
+    <path d="M32.5 57.5 L58.5 71.5" fill="none"/>
+    <path d="M45.5 52.5 L71.5 66.5" fill="none"/>
+    <path d="M58.5 47.5 L84.5 61.5" fill="none"/>
+    <path d="M71.5 42.5 L97.5 56.5" fill="none"/>
+  </g>
+  <path d="M26 60 L72 74 L72 84 L26 70 Z" fill="#123049" opacity="0.9"/>
+  <path d="M72 74 L98 60 L98 70 L72 84 Z" fill="#0d2338" opacity="0.9"/>
+  <!-- kernel window -->
+  <path d="M45.5 52.5 L71.5 66.5 L65 70 L39 56 Z" fill="url(#c3g2)" opacity="0.95"/>
+  <path d="M45.5 52.5 L71.5 66.5 L65 70 L39 56 Z" fill="none" stroke="#fff3d6" stroke-width="1.8"/>
+  <!-- last plane -->
+  <path d="M64 66 L104 78 L80 90 L40 78 Z" fill="#1b5b86"/>
+  <path d="M64 66 L104 78 L104 86 L80 98 L40 86 L40 78 Z" fill="none" stroke="#79c3ea" stroke-width="1.5" opacity="0.6"/>
+  <path d="M40 78 L80 90 L80 98 L40 86 Z" fill="#102b41"/>
+  <path d="M80 90 L104 78 L104 86 L80 98 Z" fill="#0b2033"/>
+  <!-- scan ray -->
+  <path d="M55 59 L69 78" stroke="#ffd166" stroke-width="2.4" stroke-linecap="round" opacity="0.9"/>
+  <circle cx="69" cy="78" r="4.4" fill="#ffd166"/>
+</svg>
